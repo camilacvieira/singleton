@@ -10,7 +10,7 @@ public class Main {
         //lider1 = new Lider(); Não permite instanciar, contrutor privado
 
         lider2 = Lider.obterInstancia();
-        lider2.setarNome("João");
+        lider2.setarNome("Camila");
         lider3 = Lider.obterInstancia();
 
         if(lider2 == lider3){
