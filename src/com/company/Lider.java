@@ -1,5 +1,7 @@
 package com.company;
-
+//nosso caso é uma aplicação de cadastro de uma equipe de desenvolvedores
+// e uma das regras de negócios é: existe apenas um lider de equipe na equipe(classe que nomearemos como 'Lider');
+// Com o padrão Singleton podemos evitar que sejam instanciados dois objetos da classe Lider
 //podemos ver que a classe Lider é instanciada dentro da própria classe
 // e o seu construtor está com o modificador private impedindo que
 // tentem instanciar uma nova classe através do seu construtor.

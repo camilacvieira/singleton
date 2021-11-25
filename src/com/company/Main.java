@@ -1,8 +1,6 @@
 package com.company;
 
-//nosso caso é uma aplicação de cadastro de uma equipe de desenvolvedores
-// e uma das regras de negócios é: existe apenas um lider de equipe na equipe(classe que nomearemos como 'Lider');
-// Com o padrão Singleton podemos evitar que sejam instanciados dois objetos da classe Lider
+
 public class Main {
 
     public static void main(String[] args) {
